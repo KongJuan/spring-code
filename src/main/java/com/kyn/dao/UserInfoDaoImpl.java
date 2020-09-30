@@ -18,6 +18,10 @@ public class UserInfoDaoImpl implements UserInfoDao{
     public void setDataSource(DataSource dataSource){
         this.dataSource=dataSource;
     }
+    // 初始化方法
+    public void init() {
+        System.out.println("初始化方法被调用");
+    }
 
     @Override
     public List<User> queryUserList(Map<String, Object> map) {
