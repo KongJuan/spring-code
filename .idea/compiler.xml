@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springioc-code" />
         <module name="spring-code" />
+        <module name="spring-framework-code" />
       </profile>
     </annotationProcessing>
   </component>
